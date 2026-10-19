@@ -11,7 +11,7 @@ from pathlib import Path
 try:
     from PIL import Image, ImageDraw, ImageFont
 except ImportError:
-    sys.exit("需要 Pillow: pip install pillow")
+    sys.exit("缺少依赖，请先运行: pip install -r requirements.txt")
 
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif", ".tiff"}
 
