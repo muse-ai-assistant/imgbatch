@@ -8,6 +8,10 @@ Single file, only depends on Pillow.
 ## Install
 
 ```bash
+pip install -r requirements.txt
+```
+
+```bash
 pip install pillow
 # run directly, or:
 pip install .
