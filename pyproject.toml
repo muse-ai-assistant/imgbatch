@@ -1,0 +1,14 @@
+[project]
+name = "imgbatch"
+version = "1.0.0"
+description = "Batch image processing CLI: resize, convert, compress, watermark"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["pillow"]
+license = { text = "MIT" }
+
+[project.scripts]
+imgbatch = "imgbatch:main"
+
+[build-system]
+requires = ["setuptools"]
